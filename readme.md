@@ -40,5 +40,5 @@ git clone https://github.com/joanaeliseal/projeto2-ifpb-lm-2023.1
 
 ## 📝 Alunas
 
-[Joana Elise](https://github.com/joanaeliseal)
-[Maira Larissa](https://github.com/Maira-larissa)
+- [Joana Elise](https://github.com/joanaeliseal)
+- [Maira Larissa](https://github.com/Maira-larissa)
