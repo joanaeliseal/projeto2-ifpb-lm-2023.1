@@ -1,0 +1,186 @@
+:root {
+    --cor-principal: #CE2B37;
+    --cor-principal-escuro: #B0252F;
+    --amarela: #FFE492;
+    --branco: #FFFFFF;
+    --tipografia-black: #212529; 
+    --tipografia-gray: #676767;
+}
+
+html body {
+    margin: -24px 0 0 0;
+    padding: 0;
+}
+/* Cabeçalho */
+header {
+    background-color: var(--cor-principal);
+    background-image: url(/img/grafico-header.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+#cabecalho {
+    text-align: center;
+}
+
+#logo {
+    margin-top: 48px;
+    width: 300px;
+    height: 60px;
+}   
+
+body {
+    background-color: var(--branco);
+}
+
+nav ul {
+    background-color: var(--cor-principal-escuro);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    margin-top: 40px;
+    gap: 12px;
+    width: 100%;
+    height: 47px;
+    justify-content: center;
+    position: sticky;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--branco);
+    padding: 12px;
+    margin: 0;
+    border-radius: 8px;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.item-ativo {
+    font-weight: bold;
+    color: var(--cor-principal);
+    background: var(--branco) 25%;
+    padding: 12px;
+    margin: 0;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: var(--cor-principal);
+    background: #FFFFFF 25%;
+    padding: 12px;
+    margin: 0;
+    border-radius: 8px;
+    font-weight: 700;    
+}
+
+nav a:active {
+    font-weight: bold;
+    color: var(--cor-principal);
+    background: #FFFFFF 25%;
+    padding: 12px;
+    margin: 0;
+    border-radius: 8px;    
+}
+ /*Ícones */
+
+.icone-contato {
+    width: 200px;
+    height: 200px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+/* Fontes */
+body {
+    font-family: 'Audiowide', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/*body*/
+
+body {
+    background-color: var(--cor-principal);
+}
+section {
+    background-color: var(--branco);
+    border: 8px var(--cor-principal) double;
+    border-radius: 16px;
+}
+
+#conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
+    margin: 32px auto;
+    width: 80%;
+    border-radius: 8px;
+    
+}
+
+#conteudo2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 80px;
+    margin: 32px auto;
+    width: 80%;
+    border-radius: 8px;
+    
+}
+
+#horario {
+    width: 520px;
+    text-align: center;
+}
+
+#endereco {
+    display: inline-block;
+    width: 520px;
+    gap: 24px;
+}
+
+table {
+    width: 400px;
+    margin: auto;
+
+}
+
+td {
+    text-align: center;
+    border-bottom: var(--amarela) 1px solid;
+    padding: 8px;
+}
+
+/* Formulário */
+
+h3 {
+    font-family: 'Grand Hotel', sans-serif;
+    font-weight: 400;
+}
+
+.btn btn-danger {
+    color: var(--branco);
+    background-color: var(--cor-principal) !important;
+    border-radius: 8px;
+}
+
+.btn btn-danger:hover {
+    color: var(--branco);
+    background-color: var(--cor-principal-escuro) !important;
+    border-radius: 8px;
+    transition: all .3s ease;
+}
