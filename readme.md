@@ -36,8 +36,7 @@ Você pode clonar esse repositório com Git e rodar na sua máquina.
 ```sh
 git clone https://github.com/joanaeliseal/projeto2-ifpb-lm-2023.1
 ```
-- [Página publicada no Github Pages](https://joanaeliseal.github.io/projeto2-ifpb-lm-2023.1/pages/contato.html)
-
+- [Página publicada no Github Pages](https://joanaeliseal.github.io/projeto2-ifpb-lm-2023.1/index.html)
 ## 📝 Alunas
 
 - [Joana Elise](https://github.com/joanaeliseal)
