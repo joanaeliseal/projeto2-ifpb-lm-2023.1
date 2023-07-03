@@ -54,6 +54,7 @@ li a {
     font-family: 'Audiowide', cursive;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    transition: 1000ms;
 }
 
 .item-ativo {
