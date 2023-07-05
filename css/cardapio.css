@@ -43,6 +43,8 @@ nav ul {
     height: 47px;
     justify-content: center;
     position: sticky;
+    top: 0;
+    left: 0;
 }
 
 li a {
